@@ -13,7 +13,7 @@ start = time.time()
 
 #리뷰 파일 읽어오기
 print('1) 말뭉치 읽어오기 시작')
-review_data = read_review_data('./ratings.txt')
+review_data = read_review_data('ratings.txt')
 print('1) 말뭉치 데이터 읽기 완료: ', time.time() - start)
 
 #문장 단위로 명사만 추출하여 학습 입력 데이터로 만듦
